@@ -1,0 +1,45 @@
+package dataTypes;
+
+public class IntShortByteLong {
+
+	public static void main(String[] args) {
+		
+		//int data type
+		int myIntMinValue = Integer.MIN_VALUE;
+		int myIntMaxValue = Integer.MAX_VALUE;	
+		System.out.println("Int Min Value : " + myIntMinValue);
+		System.out.println("Int Max Value : " + myIntMaxValue);
+		System.out.println("Busted Min Int Value : "+ (myIntMinValue - 1));
+		System.out.println("Busted Max Int Value : "+ (myIntMaxValue + 1));
+		
+		System.out.println("");
+		System.out.println("");
+		
+		//short data type
+		short myShortMinValue = Short.MIN_VALUE;
+		short myShortMaxValue = Short.MAX_VALUE;	
+		System.out.println("Short Min Value : " + myShortMinValue);
+		System.out.println("Short Max Value : " + myShortMaxValue);
+		myShortMinValue = (short) (myShortMinValue -1);
+		myShortMaxValue = (short) (myShortMaxValue +1);
+		System.out.println("Busted Min Short Value : "+ myShortMinValue);
+		System.out.println("Busted Max Short Value : "+ myShortMaxValue);
+		
+		//byte data type//byte data type
+		byte myByteMinValue = Byte.MIN_VALUE;
+		byte myByteMaxValue = Byte.MAX_VALUE;	
+		System.out.println("Byte Min Value : " + myByteMinValue);
+		System.out.println("Byte Max Value : " + myByteMaxValue);
+		myShortMinValue = (byte) (myByteMinValue -1);
+		myShortMaxValue = (byte) (myByteMaxValue +1);
+		System.out.println("Busted Min Byte Value : "+ myByteMinValue);
+		System.out.println("Busted Max Byte Value : "+ myByteMaxValue);
+				
+		
+		
+		
+		
+		
+	}
+
+}

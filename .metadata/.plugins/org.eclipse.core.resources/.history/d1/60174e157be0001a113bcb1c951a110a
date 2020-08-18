@@ -1,0 +1,21 @@
+package Operators;
+
+public class Arithmetic {
+
+	public static void main(String[] args) {
+		
+		int add = 10 + 20;
+		int sub = 20-10;
+		int mul = 10*20;
+		int div = 20/5;
+		int modulo = 20%3;
+		
+		System.out.println(add);
+		System.out.println(sub);
+		System.out.println(mul);
+		System.out.println(div);
+		System.out.println(modulo);
+		
+	}
+
+}
