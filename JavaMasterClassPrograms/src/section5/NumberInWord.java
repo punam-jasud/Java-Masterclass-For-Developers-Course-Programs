@@ -3,7 +3,7 @@ package section5;
 public class NumberInWord {
 
 	public static void main(String[] args) {
-		
+
 		int number = 15;
 		switch (number) {
 		case 0:
