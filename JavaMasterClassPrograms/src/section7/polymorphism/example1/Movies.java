@@ -1,6 +1,5 @@
 package section7.polymorphism.example1;
 
-import section7.composition.example1.Case;
 
 class Movie {
 	private String nameString;
