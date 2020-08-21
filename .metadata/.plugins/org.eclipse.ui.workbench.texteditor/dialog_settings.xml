@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="true"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Double"/>
+		<item key="selection" value="HouseClass"/>
 		<list key="findhistory">
+			<item value="House"/>
+			<item value="vip1"/>
 			<item value="Float"/>
 			<item value="float"/>
 			<item value="Int"/>
@@ -18,6 +20,9 @@
 			<item value="Short"/>
 		</list>
 		<list key="replacehistory">
+			<item value="HouseClass"/>
+			<item value="vip3"/>
+			<item value="vip2"/>
 			<item value="Double"/>
 			<item value="double"/>
 			<item value="Float"/>
