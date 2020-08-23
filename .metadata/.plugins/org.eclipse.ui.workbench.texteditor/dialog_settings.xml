@@ -3,11 +3,14 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="true"/>
-		<item key="wholeword" value="false"/>
+		<item key="wholeword" value="true"/>
 		<item key="incremental" value="true"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="HouseClass"/>
+		<item key="selection" value="androidTV"/>
 		<list key="findhistory">
+			<item value="AndroidTV"/>
+			<item value="smartTV"/>
+			<item value="Mitssubishi"/>
 			<item value="House"/>
 			<item value="vip1"/>
 			<item value="Float"/>
@@ -20,6 +23,9 @@
 			<item value="Short"/>
 		</list>
 		<list key="replacehistory">
+			<item value="androidTV"/>
+			<item value="AndroidTV"/>
+			<item value="Ford"/>
 			<item value="HouseClass"/>
 			<item value="vip3"/>
 			<item value="vip2"/>
@@ -32,15 +38,13 @@
 			<item value="long"/>
 			<item value="Long"/>
 			<item value="byte"/>
-			<item value="Byte"/>
-			<item value="short"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="1097"/>
-		<item key="DIALOG_Y_ORIGIN" value="260"/>
+		<item key="DIALOG_Y_ORIGIN" value="262"/>
 		<item key="DIALOG_WIDTH" value="336"/>
-		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_HEIGHT" value="452"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
