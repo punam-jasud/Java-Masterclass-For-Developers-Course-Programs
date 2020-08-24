@@ -1,6 +1,6 @@
 package section7.polymorphism.example3;
 
-class TV {
+class Tv {
 
 	private String brand;
 	private String screenType;
@@ -8,7 +8,7 @@ class TV {
 	private int screenHeight;
 	private String tvFeatures;
 
-	public TV(String brand, String screenType, int screenWidth, int screenHeight, String tvFeatures) {
+	public Tv(String brand, String screenType, int screenWidth, int screenHeight, String tvFeatures) {
 
 		this.brand = brand;
 		this.screenType = screenType;
@@ -51,7 +51,7 @@ class TV {
 
 }
 
-class SmartTV extends TV {
+class SmartTV extends Tv {
 
 	public SmartTV(String brand, String screenType, int screenWidth, int screenHeight, String tvFeatures) {
 		super(brand, screenType, screenWidth, screenHeight, tvFeatures);
@@ -73,9 +73,9 @@ class SmartTV extends TV {
 
 }
 
-class androidTV extends TV {
+class AndroidTV extends Tv {
 
-	public androidTV(String brand, String screenType, int screenWidth, int screenHeight, String tvFeatures) {
+	public AndroidTV(String brand, String screenType, int screenWidth, int screenHeight, String tvFeatures) {
 		super(brand, screenType, screenWidth, screenHeight, tvFeatures);
 
 	}
@@ -99,7 +99,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		TV smartTV = new SmartTV("Mi TV", "LED", 900, 600, "quad-core,cortex A53 processor,Mail-450 Processor");
+		Tv smartTV = new SmartTV("Mi TV", "LED", 900, 600, "quad-core,cortex A53 processor,Mail-450 Processor");
 		smartTV.turnOn();
 		System.out.println();
 		System.out.println("Brand : " + smartTV.getBrand());
@@ -114,7 +114,7 @@ public class Main {
 		System.out.println("===================================================================================");
 
 		System.out.println();
-		TV androidTV = new androidTV("Sony TV", "LCD", 1920, 1080, "Full HD,2 HDMI Ports,20 watts output");
+		Tv androidTV = new AndroidTV("Sony TV", "LCD", 1920, 1080, "Full HD,2 HDMI Ports,20 watts output");
 		androidTV.turnOn();
 		System.out.println();
 		System.out.println("Brand : " + androidTV.getBrand());
