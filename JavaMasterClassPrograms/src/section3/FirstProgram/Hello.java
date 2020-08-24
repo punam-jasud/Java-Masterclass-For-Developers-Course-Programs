@@ -1,4 +1,4 @@
-package FirstProgram;
+package section3.FirstProgram;
 
 public class Hello {
 

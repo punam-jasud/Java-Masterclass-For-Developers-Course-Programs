@@ -1,4 +1,4 @@
-package dataTypes;
+package section3.dataTypes;
 
 public class PrimitiveTypeChallange {
 

@@ -1,4 +1,4 @@
-package Operators;
+package section3.Operators;
 
 public class Logical {
 
