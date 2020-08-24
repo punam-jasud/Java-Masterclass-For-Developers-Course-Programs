@@ -1,4 +1,4 @@
-package arrays;
+package section8.arrays;
 
 import java.util.Scanner;
 
