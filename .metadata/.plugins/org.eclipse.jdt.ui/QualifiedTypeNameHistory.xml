@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="section4.AreaCalculatorMethodOverloading"/>
-    <fullyQualifiedTypeName name="com.sun.tools.classfile.Annotation.element_value"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.And"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.RETURN"/>
-    <fullyQualifiedTypeName name="section5.Sum3AndSum5Challange"/>
-    <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="section6.Car"/>
     <fullyQualifiedTypeName name="section6.SimpleCalculatorExcercise"/>
     <fullyQualifiedTypeName name="section6.PersonExcercise"/>
@@ -37,7 +29,6 @@
     <fullyQualifiedTypeName name="section7.composition.Motherboard"/>
     <fullyQualifiedTypeName name="section7.composition.PC"/>
     <fullyQualifiedTypeName name="section6.constructors.WallExcercise"/>
-    <fullyQualifiedTypeName name="jdk.jfr.internal.PrivateAccess"/>
     <fullyQualifiedTypeName name="section7.composition.example2.Wall"/>
     <fullyQualifiedTypeName name="section7.composition.example2.Ceiling"/>
     <fullyQualifiedTypeName name="section7.composition.example2.Lamp"/>
@@ -57,7 +48,16 @@
     <fullyQualifiedTypeName name="sun.tools.tree.ThisExpression"/>
     <fullyQualifiedTypeName name="section7.oopMasterChallange.Hamburger"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMapTable_attribute.verification_type_info"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="section7.polymorphism.example3.SmartTV"/>
     <fullyQualifiedTypeName name="section7.polymorphism.example3.AndroidTV"/>
+    <fullyQualifiedTypeName name="section5.Sum3AndSum5Challange"/>
+    <fullyQualifiedTypeName name="jdk.jfr.internal.PrivateAccess"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.StaticBaseConstructor"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
