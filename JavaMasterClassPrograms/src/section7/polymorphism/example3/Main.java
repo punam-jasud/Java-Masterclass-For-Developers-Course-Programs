@@ -51,9 +51,9 @@ class Tv {
 
 }
 
-class SmartTV extends Tv {
+class SmartTv extends Tv {
 
-	public SmartTV(String brand, String screenType, int screenWidth, int screenHeight, String tvFeatures) {
+	public SmartTv(String brand, String screenType, int screenWidth, int screenHeight, String tvFeatures) {
 		super(brand, screenType, screenWidth, screenHeight, tvFeatures);
 
 	}
@@ -73,9 +73,9 @@ class SmartTV extends Tv {
 
 }
 
-class AndroidTV extends Tv {
+class AndroidTv extends Tv {
 
-	public AndroidTV(String brand, String screenType, int screenWidth, int screenHeight, String tvFeatures) {
+	public AndroidTv(String brand, String screenType, int screenWidth, int screenHeight, String tvFeatures) {
 		super(brand, screenType, screenWidth, screenHeight, tvFeatures);
 
 	}
@@ -99,31 +99,31 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Tv smartTV = new SmartTV("Mi TV", "LED", 900, 600, "quad-core,cortex A53 processor,Mail-450 Processor");
-		smartTV.turnOn();
+		Tv smartTv = new SmartTv("Mi TV", "LED", 900, 600, "quad-core,cortex A53 processor,Mail-450 Processor");
+		smartTv.turnOn();
 		System.out.println();
-		System.out.println("Brand : " + smartTV.getBrand());
-		System.out.println("Screen : " + smartTV.getScreenType());
-		System.out.println("Screen Width: " + smartTV.getScreenWidth());
-		System.out.println("Screen Height: " + smartTV.getScreenHeight());
-		System.out.println("Features : " + smartTV.getTvFeatures());
+		System.out.println("Brand : " + smartTv.getBrand());
+		System.out.println("Screen : " + smartTv.getScreenType());
+		System.out.println("Screen Width: " + smartTv.getScreenWidth());
+		System.out.println("Screen Height: " + smartTv.getScreenHeight());
+		System.out.println("Features : " + smartTv.getTvFeatures());
 		System.out.println();
-		smartTV.turnOff();
+		smartTv.turnOff();
 		System.out.println();
 
 		System.out.println("===================================================================================");
 
 		System.out.println();
-		Tv androidTV = new AndroidTV("Sony TV", "LCD", 1920, 1080, "Full HD,2 HDMI Ports,20 watts output");
-		androidTV.turnOn();
+		Tv androidTv = new AndroidTv("Sony TV", "LCD", 1920, 1080, "Full HD,2 HDMI Ports,20 watts output");
+		androidTv.turnOn();
 		System.out.println();
-		System.out.println("Brand : " + androidTV.getBrand());
-		System.out.println("Screen : " + androidTV.getScreenType());
-		System.out.println("Screen Width: " + androidTV.getScreenWidth());
-		System.out.println("Screen Height: " + androidTV.getScreenHeight());
-		System.out.println("Features : " + androidTV.getTvFeatures());
+		System.out.println("Brand : " + androidTv.getBrand());
+		System.out.println("Screen : " + androidTv.getScreenType());
+		System.out.println("Screen Width: " + androidTv.getScreenWidth());
+		System.out.println("Screen Height: " + androidTv.getScreenHeight());
+		System.out.println("Features : " + androidTv.getTvFeatures());
 		System.out.println();
-		androidTV.turnOff();
+		androidTv.turnOff();
 
 	}
 
