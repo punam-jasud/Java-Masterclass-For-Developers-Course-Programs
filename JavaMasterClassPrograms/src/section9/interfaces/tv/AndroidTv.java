@@ -14,11 +14,16 @@ public class AndroidTv extends TvImplementation {
 		return internetConncetion;
 	}
 	public void checkConnection() {
-		if (isInternetConncetion()) {
-			System.out.println("Internet Connection : Yes");
-		}
-		else {
-			System.out.println("Internet Connection : No");
-		}
+//		if (isInternetConncetion()) {
+//			
+//		}
+//		else {
+//			
+//		}
+		
+//		String string = (internetConncetion) ? "Yes":"No";
+//		System.out.println("Internet Connection : "+string);
+		
+		System.out.println("Internet Connection : "+internetConncetion);
 	}
 }

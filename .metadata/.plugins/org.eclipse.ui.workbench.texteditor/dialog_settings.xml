@@ -6,8 +6,9 @@
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="true"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="placesToVisit"/>
+		<item key="selection" value="cleaningAppliance"/>
 		<list key="findhistory">
+			<item value="entertainmentAppliance"/>
 			<item value="citiesLinkedList"/>
 			<item value="AndroidTV"/>
 			<item value="smartTV"/>
@@ -24,6 +25,7 @@
 			<item value="Short"/>
 		</list>
 		<list key="replacehistory">
+			<item value="cleaningAppliance"/>
 			<item value="placesToVisit"/>
 			<item value="androidTV"/>
 			<item value="AndroidTV"/>
@@ -38,7 +40,6 @@
 			<item value="char"/>
 			<item value="Char"/>
 			<item value="long"/>
-			<item value="Long"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
