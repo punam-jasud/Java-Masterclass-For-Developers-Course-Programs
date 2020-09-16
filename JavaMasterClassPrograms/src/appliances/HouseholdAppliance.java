@@ -8,6 +8,8 @@ public abstract class HouseholdAppliance implements IApplianceFunctions {
 	private double weight;
 	private double price;
 	
+	
+	
 	public HouseholdAppliance(String name, String brand, String color, double weight, double price) {
 	
 		this.name = name;
@@ -15,7 +17,9 @@ public abstract class HouseholdAppliance implements IApplianceFunctions {
 		this.color = color;
 		this.weight = weight;
 		this.price = price;
+		
 	}
+	
 	
 	
 	//Non-abstract Method
@@ -23,6 +27,8 @@ public abstract class HouseholdAppliance implements IApplianceFunctions {
 	public String getName() {
 		return name;
 	}
+
+	
 
 	public String getBrand() {
 		return brand;
