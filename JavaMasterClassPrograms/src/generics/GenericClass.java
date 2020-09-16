@@ -1,6 +1,5 @@
 package generics;
 
-
 //Class without generic type
 
 /*  public class GenericClass {
@@ -22,8 +21,8 @@ package generics;
 
 //Class with generic type
 public class GenericClass<T> {
-	
-	//T stands for "Type"
+
+	// T stands for "Type"
 	private T t;
 
 	public T getT() {
@@ -33,22 +32,19 @@ public class GenericClass<T> {
 	public void setT(T t) {
 		this.t = t;
 	}
-	
+
 	public static void main(String[] args) {
-		
+
 		GenericClass<String> instance = new GenericClass<String>();
-		instance.setT("Punam");	 //correct usage
-		//instance.setT(123);     //will raise compile time error	
-		System.out.println("Name : "+instance.getT());
-		
-		
-		
+		instance.setT("Punam"); // correct usage
+		// instance.setT(123); //will raise compile time error
+		System.out.println("Name : " + instance.getT());
+
 		GenericClass<Integer> obj = new GenericClass<Integer>();
-		//obj.setT("Punam");  //will raise compile time error
-		obj.setT(24);   	 //correct usage	
-		System.out.println("Age : "+obj.getT());
-		
-		
- 	}
+		// obj.setT("Punam"); //will raise compile time error
+		obj.setT(24); // correct usage
+		System.out.println("Age : " + obj.getT());
+
+	}
 
 }

@@ -6,9 +6,9 @@ import java.util.List;
 public class WithoutGenerics {
 
 	public static void main(String[] args) {
-		
+
 		List list = new ArrayList();
-		
+
 		list.add(1);
 		list.add(22.56);
 		list.add(3);
@@ -17,11 +17,9 @@ public class WithoutGenerics {
 		list.add('A');
 		list.add(true);
 		list.add("Punam");
-		
+
 		System.out.println(list);
-		
 
 	}
-
 
 }
