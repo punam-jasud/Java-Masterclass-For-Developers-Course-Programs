@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="section9.interfaces.tv.SmartTv"/>
-    <fullyQualifiedTypeName name="section9.interfaces.tv.AndroidTv"/>
-    <fullyQualifiedTypeName name="section9.interfaces.tv.TvImplementation"/>
-    <fullyQualifiedTypeName name="java.lang.Appendable"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.I2F"/>
-    <fullyQualifiedTypeName name="appliances.HouseholdAppliance"/>
     <fullyQualifiedTypeName name="appliances.CleaningAppliance"/>
     <fullyQualifiedTypeName name="appliances.KitchenAppliance"/>
     <fullyQualifiedTypeName name="appliances.Tv"/>
@@ -32,9 +26,7 @@
     <fullyQualifiedTypeName name="generics.A"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations.PrivateKeyResolver"/>
     <fullyQualifiedTypeName name="generics.GenericConstructor"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="T"/>
-    <fullyQualifiedTypeName name="appliances.Soundbar"/>
     <fullyQualifiedTypeName name="generics.GenericArray"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="exception_handling.FinallyBlockWithReturn"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="multithreading.ExtendingThreadClass"/>
+    <fullyQualifiedTypeName name="multithreading.SleepMethod"/>
+    <fullyQualifiedTypeName name="multithreading.CallingRunDirectly2"/>
+    <fullyQualifiedTypeName name="appliances.Soundbar"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
