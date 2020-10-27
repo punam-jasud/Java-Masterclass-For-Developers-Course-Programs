@@ -6,28 +6,25 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		EntertainmentAppliance entertainmentAppliance;
 		CleaningAppliance cleaningAppliance;
 		KitchenAppliance kitchenAppliance;
-		
-		int choice ;
-		
-		while(true)
-		{
+
+		int choice;
+
+		while (true) {
 			System.out.print("\n***************************************************************************");
-			System.out.print("\nChoose Appliance :\n\n"+
-					"1.Tv\n2.Soundbar\n"+
-					"3.Washing Machine\n4.Dish Washer\n"+
-					"5.Oven\n6.Microwave\n7.Exit\n\n"+
-					"Choice : ");
-			
+			System.out.print("\nChoose Appliance :\n\n" + "1.Tv\n2.Soundbar\n" + "3.Washing Machine\n4.Dish Washer\n"
+					+ "5.Oven\n6.Microwave\n7.Exit\n\n" + "Choice : ");
+
 			choice = sc.nextInt();
 			System.out.println();
-			
+
 			switch (choice) {
 			case 1:
-				entertainmentAppliance = new Tv("Tv", "Mi TV", "Black", 10, 50000, "LCD", 900, 600, "quad-core,cortex A53 processor,Mail-450 Processor");
+				entertainmentAppliance = new Tv("Tv", "Mi TV", "Black", 10, 50000, "LCD", 900, 600,
+						"quad-core,cortex A53 processor,Mail-450 Processor");
 				entertainmentAppliance.turnOn();
 				System.out.println();
 				entertainmentAppliance.displayApplianceDetails();
@@ -35,9 +32,9 @@ public class Main {
 				entertainmentAppliance.turnOff();
 				entertainmentAppliance.clean();
 				break;
-	
+
 			case 2:
-				entertainmentAppliance = new Soundbar("Soundbar", "Mi", "Black", 3 , 15000, "Bluetooth", 6);
+				entertainmentAppliance = new Soundbar("Soundbar", "Mi", "Black", 3, 15000, "Bluetooth", 6);
 				entertainmentAppliance.turnOn();
 				System.out.println();
 				entertainmentAppliance.displayApplianceDetails();
@@ -46,7 +43,8 @@ public class Main {
 				entertainmentAppliance.clean();
 				break;
 			case 3:
-				cleaningAppliance = new WashingMachine("Washing Machine", "Samsung", "White", 30, 25000, false, "Steel", 9, 220);
+				cleaningAppliance = new WashingMachine("Washing Machine", "Samsung", "White", 30, 25000, false, "Steel",
+						9, 220);
 				cleaningAppliance.turnOn();
 				System.out.println();
 				cleaningAppliance.displayApplianceDetails();
@@ -90,7 +88,7 @@ public class Main {
 			default:
 				System.out.println("Wrong Choice");
 				break;
-			
+
 			}
 		}
 	}

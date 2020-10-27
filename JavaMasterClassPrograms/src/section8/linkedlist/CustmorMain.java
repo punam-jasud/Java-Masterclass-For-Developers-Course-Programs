@@ -1,7 +1,6 @@
 package section8.linkedlist;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class CustmorMain {
 
